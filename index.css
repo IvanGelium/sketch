@@ -1,0 +1,101 @@
+* {
+    /* outline: 2px solid black; */
+    box-sizing: border-box;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background: rgb(223,108,108);
+    background: linear-gradient(219deg, rgba(223,108,108,1) 0%, rgb(173, 52, 52) 100%);
+    border-radius: 3%;
+    outline: 50px solid darkred;
+}
+
+.header { 
+    height: 5vh;
+    width: 99vw;
+}
+
+.midler {
+    height: 88vh;
+    width: 99vw;
+    display: flex;
+}
+
+.sidebar {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 5%;
+}
+
+.logo {
+    font-size: x-large;
+    color: rgb(246,232,175);
+    color: linear-gradient(171deg, rgba(246,232,175,1) 0%, rgba(236,215,156,0.9) 100%);
+    text-shadow: -3px 5px 10px rgb(54, 21, 30), 4px 4px 10px rgb(124, 85, 48);
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 10%;
+}
+
+#sketch-a-pro{
+    margin-bottom: 0%;
+}
+
+#magic-screen {
+    margin-top: 0%;
+}
+
+.button-cont {
+    width: 70%;
+    height: 10%;
+    margin-right: 10%;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(131,99,60);
+    background: linear-gradient(20deg, rgb(156, 113, 60) 0%, rgba(255,228,196,1) 100%);
+    border-radius: 15% 40%;
+    box-shadow: -10px 10px 10px rgb(138, 25, 10), 10px -10px 10px rgb(212, 78, 60), -3px 3px 3px rgb(51, 9, 3);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    color: rgb(241, 226, 207);
+    color: linear-gradient(3deg, rgba(131,79,60,1) 0%, rgba(255,215,196,1) 100%)
+}
+
+.button:active {
+    background: rgb(219, 185, 146);
+    background: radial-gradient(circle, rgb(216, 174, 125) 100%, rgba(133,95,48,1) 0%);
+}
+
+.screen-cont {
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+    background: rgb(255,251,235);
+    background: radial-gradient(circle, rgba(255,251,235,1) 0%, rgba(255,248,213,0.9) 100%);
+    outline: 25px solid hsla(0, 100%, 30%, 0.9);
+
+}
+
+.right-side {
+    height: 100%;
+    width: 3vw;
+}
+
+.footer {
+    height: 5vh;
+    width: 99vw;
+}
