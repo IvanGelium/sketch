@@ -24,7 +24,7 @@
 }
 
 .sidebar {
-    width: 20vw;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -92,7 +92,7 @@
 
 .right-side {
     height: 100%;
-    width: 3vw;
+    width: 50px;
 }
 
 .footer {
@@ -109,9 +109,16 @@
 
 }
 
+.actualScreen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .cell {
-    height: 16px;
-    width: 16px;
+    pointer-events: none;
+    margin: 0px;
+    border: 0px;
 }
 
 .cellCol {
