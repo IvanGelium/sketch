@@ -86,7 +86,7 @@
     border-radius: 3%;
     background: rgb(255,251,235);
     background: radial-gradient(circle, rgba(255,251,235,1) 0%, rgba(255,248,213,0.9) 100%);
-    outline: 25px solid hsla(0, 100%, 30%, 0.9);
+    outline: 25px solid hsla(0, 100%, 30%);
 
 }
 
@@ -98,4 +98,22 @@
 .footer {
     height: 5vh;
     width: 99vw;
+}
+
+.screen {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.cell {
+    height: 16px;
+    width: 16px;
+}
+
+.cellCol {
+    background-color: black;
 }
