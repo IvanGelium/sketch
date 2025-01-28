@@ -4,6 +4,9 @@ let id;
 onload = gridGen();
 
 
+screen.addEventListener()
+
+
 function gridGen() {
     let k = gridSize();
     for (let i = 0; i < k; i++) {
