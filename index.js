@@ -4,7 +4,7 @@ let screenSizeVarY;
 const screen = document.querySelector('.screen'); 
 let cell;
 let id;
-let cellSize = 64;
+let cellSize = 8;
 let xRow;
 let sqCoord;
 let mouseSq;
